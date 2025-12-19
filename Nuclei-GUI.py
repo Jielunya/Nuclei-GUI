@@ -13,7 +13,6 @@ class NucleiGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Nuclei GUI Tool v1.0 -by Jielun")
-        # 窗口整体缩小一点
         self.root.geometry("1100x800")
         
         # 存储模板列表
